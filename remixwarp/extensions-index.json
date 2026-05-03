@@ -1,0 +1,53 @@
+{
+  "extensions": [
+    {
+      "name": "寻路 (舞台坐标)",
+      "description": "多种寻路算法扩展，支持A*、BFS、Dijkstra、JPS等算法，可在舞台上显示调试窗口",
+      "extensionId": "pathfinding",
+      "extensionURL": "/extensions/remixwarp/寻路.js",
+      "iconURL": "/extensions/remixwarp/寻路.png",
+      "tags": [
+        "remixwarp"
+      ],
+      "credits": [
+        {
+          "name": "该账号差一点注销",
+          "link": "https://space.bilibili.com/3546902484224452"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true,
+      "samples": [
+        {
+          "href": "/extensions/remixwarp/寻路示例作品.sb3",
+          "text": "示例作品"
+        }
+      ]
+    },
+    {
+      "name": "Windows of OS",
+      "description": "An extension that simulates an operating system, including CMD terminal, register management, external program loading, custom windows, and GUI components.",
+      "descriptionTranslations": {
+        "zh-cn": "一个模拟操作系统的扩展，包含CMD终端、寄存器管理、外部程序加载、自定义窗口和GUI组件等功能。"
+      },
+      "extensionId": "gmyosWindow",
+      "extensionURL": "/extensions/remixwarp/windows-of-os/windows-of-os.js",
+      "onlineURL": "https://extensions.remixwarp.org/gmy-xxl/windows-of-os.js",
+      "iconURL": "/extensions/remixwarp/windows-of-os/win-of-os.png",
+      "tags": [
+        "remixwarp"
+      ],
+      "credits": [
+        "gmy-xxl"
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true,
+      "samples": [
+        {
+          "href": "/extensions/remixwarp/windows-of-os/sample-project.sb3",
+          "text": "示例作品"
+        }
+      ]
+    }
+  ]
+}
