@@ -4,8 +4,8 @@
       "name": "寻路 (舞台坐标)",
       "description": "多种寻路算法扩展，支持A*、BFS、Dijkstra、JPS等算法，可在舞台上显示调试窗口",
       "extensionId": "pathfinding",
-      "extensionURL": "/extensions/remixwarp/寻路.js",
-      "iconURL": "/extensions/remixwarp/寻路.png",
+      "extensionURL": "https://rw-extensions.pages.dev/remixwarp/寻路.js",
+      "iconURL": "https://rw-extensions.pages.dev/remixwarp/寻路.png",
       "tags": [
         "remixwarp"
       ],
@@ -19,7 +19,7 @@
       "featured": true,
       "samples": [
         {
-          "href": "/extensions/remixwarp/寻路示例作品.sb3",
+          "href": "https://rw-extensions.pages.dev/remixwarp/寻路示例作品.sb3",
           "text": "示例作品"
         }
       ]
@@ -31,9 +31,9 @@
         "zh-cn": "一个模拟操作系统的扩展，包含CMD终端、寄存器管理、外部程序加载、自定义窗口和GUI组件等功能。"
       },
       "extensionId": "gmyosWindow",
-      "extensionURL": "/extensions/remixwarp/windows-of-os/windows-of-os.js",
+      "extensionURL": "https://rw-extensions.pages.dev/remixwarp/windows-of-os/windows-of-os.js",
       "onlineURL": "https://extensions.remixwarp.org/gmy-xxl/windows-of-os.js",
-      "iconURL": "/extensions/remixwarp/windows-of-os/win-of-os.png",
+      "iconURL": "https://rw-extensions.pages.dev/remixwarp/windows-of-os/win-of-os.png",
       "tags": [
         "remixwarp"
       ],
@@ -44,7 +44,7 @@
       "featured": true,
       "samples": [
         {
-          "href": "/extensions/remixwarp/windows-of-os/sample-project.sb3",
+          "href": "https://rw-extensions.pages.dev/remixwarp/windows-of-os/sample-project.sb3",
           "text": "示例作品"
         }
       ]

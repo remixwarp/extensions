@@ -32,9 +32,9 @@
         "zh-cn": "显示与设置动画文字的简单方式，与 Scratch Lab 的\"动画文字\"实验项目兼容。"
       },
       "extensionId": "text",
-      "extensionURL": "/extensions/turbowarp/lab/text.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/lab/text.js",
       "onlineURL": "https://extensions.turbowarp.org/lab/text.js",
-      "iconURL": "/extensions/turbowarp/images/lab/text.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/lab/text.svg",
       "tags": [
         "tw"
       ],
@@ -64,9 +64,9 @@
         "zh-cn": "使用摄像头侦测人脸。"
       },
       "extensionId": "faceSensing",
-      "extensionURL": "/extensions/turbowarp/lab/face-sensing.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/lab/face-sensing.js",
       "onlineURL": "https://extensions.turbowarp.org/lab/face-sensing.js",
-      "iconURL": "/extensions/turbowarp/images/lab/face-sensing.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/lab/face-sensing.svg",
       "tags": [
         "tw"
       ],
@@ -102,9 +102,9 @@
         "zh-cn": "水平或竖直拉伸角色。"
       },
       "extensionId": "stretch",
-      "extensionURL": "/extensions/turbowarp/stretch.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/stretch.js",
       "onlineURL": "https://extensions.turbowarp.org/stretch.js",
-      "iconURL": "/extensions/turbowarp/images/stretch.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/stretch.svg",
       "tags": [
         "tw"
       ],
@@ -137,9 +137,9 @@
         "zh-cn": "直接访问游戏手柄而不再将按钮映射为按键。"
       },
       "extensionId": "Gamepad",
-      "extensionURL": "/extensions/turbowarp/gamepad.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/gamepad.js",
       "onlineURL": "https://extensions.turbowarp.org/gamepad.js",
-      "iconURL": "/extensions/turbowarp/images/gamepad.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/gamepad.svg",
       "tags": [
         "tw"
       ],
@@ -175,9 +175,9 @@
         "zh-cn": "2D 物理引擎。"
       },
       "extensionId": "griffpatch",
-      "extensionURL": "/extensions/turbowarp/box2d.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/box2d.js",
       "onlineURL": "https://extensions.turbowarp.org/box2d.js",
-      "iconURL": "/extensions/turbowarp/images/box2d.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/box2d.svg",
       "tags": [
         "tw"
       ],
@@ -220,9 +220,9 @@
         "zh-cn": "读取或下载文件。"
       },
       "extensionId": "files",
-      "extensionURL": "/extensions/turbowarp/files.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/files.js",
       "onlineURL": "https://extensions.turbowarp.org/files.js",
-      "iconURL": "/extensions/turbowarp/images/files.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/files.svg",
       "tags": [
         "tw"
       ],
@@ -259,9 +259,9 @@
         "zh-cn": "添加鼠标锁定的功能。鼠标的 x、y 块在指针锁定时将返回上一帧到现在的变化，并取代了指针锁定的实验性功能。"
       },
       "extensionId": "pointerlock",
-      "extensionURL": "/extensions/turbowarp/pointerlock.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/pointerlock.js",
       "onlineURL": "https://extensions.turbowarp.org/pointerlock.js",
-      "iconURL": "/extensions/turbowarp/images/pointerlock.png",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/pointerlock.png",
       "tags": [
         "tw"
       ],
@@ -299,9 +299,9 @@
         "zh-cn": "使用自定义指针或者隐藏指针。又或者用造型图片替换指针。"
       },
       "extensionId": "MouseCursor",
-      "extensionURL": "/extensions/turbowarp/cursor.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/cursor.js",
       "onlineURL": "https://extensions.turbowarp.org/cursor.js",
-      "iconURL": "/extensions/turbowarp/images/cursor.png",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/cursor.png",
       "tags": [
         "tw"
       ],
@@ -351,9 +351,9 @@
         "zh-cn": "获取或修改关于加速模式，帧数，补帧，克隆体上限，舞台大小以及其他的设置。"
       },
       "extensionId": "runtimeoptions",
-      "extensionURL": "/extensions/turbowarp/runtime-options.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/runtime-options.js",
       "onlineURL": "https://extensions.turbowarp.org/runtime-options.js",
-      "iconURL": "/extensions/turbowarp/images/runtime-options.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/runtime-options.svg",
       "tags": [
         "tw"
       ],
@@ -384,9 +384,9 @@
         "zh-cn": "向广阔的互联网进行请求。"
       },
       "extensionId": "fetch",
-      "extensionURL": "/extensions/turbowarp/fetch.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/fetch.js",
       "onlineURL": "https://extensions.turbowarp.org/fetch.js",
-      "iconURL": "/extensions/turbowarp/images/fetch.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/fetch.svg",
       "tags": [
         "tw"
       ],
@@ -422,9 +422,9 @@
         "zh-cn": "使用各种编码方案对数据进行编码和解码。"
       },
       "extensionId": "encoding",
-      "extensionURL": "/extensions/turbowarp/encoding.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/encoding.js",
       "onlineURL": "https://extensions.turbowarp.org/encoding.js",
-      "iconURL": "/extensions/turbowarp/images/encoding.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/encoding.svg",
       "tags": [
         "tw"
       ],
@@ -436,9 +436,9 @@
       "name": "Cloud Data Ping",
       "description": "Ping cloud variables to check if they are ready.",
       "extensionId": "clouddata-ping",
-      "extensionURL": "/extensions/turbowarp/clouddata-ping.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/clouddata-ping.js",
       "onlineURL": "https://extensions.turbowarp.org/clouddata-ping.js",
-      "iconURL": "/extensions/turbowarp/images/clouddata-ping.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/clouddata-ping.svg",
       "tags": [
         "tw"
       ],
@@ -450,9 +450,9 @@
       "name": "Cloud Link",
       "description": "Connect to cloud variables from other projects.",
       "extensionId": "cloudlink",
-      "extensionURL": "/extensions/turbowarp/cloudlink.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/cloudlink.js",
       "onlineURL": "https://extensions.turbowarp.org/cloudlink.js",
-      "iconURL": "/extensions/turbowarp/images/cloudlink.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/cloudlink.svg",
       "tags": [
         "tw"
       ],
@@ -464,9 +464,9 @@
       "name": "Bitwise",
       "description": "Bitwise operations on numbers.",
       "extensionId": "bitwise",
-      "extensionURL": "/extensions/turbowarp/bitwise.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/bitwise.js",
       "onlineURL": "https://extensions.turbowarp.org/bitwise.js",
-      "iconURL": "/extensions/turbowarp/images/bitwise.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/bitwise.svg",
       "tags": [
         "tw"
       ],
@@ -478,9 +478,9 @@
       "name": "Clipboard",
       "description": "Read and write to the clipboard.",
       "extensionId": "clipboard",
-      "extensionURL": "/extensions/turbowarp/clipboard.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/clipboard.js",
       "onlineURL": "https://extensions.turbowarp.org/clipboard.js",
-      "iconURL": "/extensions/turbowarp/images/clipboard.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/clipboard.svg",
       "tags": [
         "tw"
       ],
@@ -492,9 +492,9 @@
       "name": "AR",
       "description": "Augmented reality features.",
       "extensionId": "ar",
-      "extensionURL": "/extensions/turbowarp/ar.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/ar.js",
       "onlineURL": "https://extensions.turbowarp.org/ar.js",
-      "iconURL": "/extensions/turbowarp/images/ar.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/ar.svg",
       "tags": [
         "tw"
       ],
@@ -506,9 +506,9 @@
       "name": "Battery",
       "description": "Get battery status.",
       "extensionId": "battery",
-      "extensionURL": "/extensions/turbowarp/battery.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/battery.js",
       "onlineURL": "https://extensions.turbowarp.org/battery.js",
-      "iconURL": "/extensions/turbowarp/images/battery.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/battery.svg",
       "tags": [
         "tw"
       ],
@@ -520,9 +520,9 @@
       "name": "GameJolt",
       "description": "GameJolt API integration.",
       "extensionId": "gamejolt",
-      "extensionURL": "/extensions/turbowarp/gamejolt.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/gamejolt.js",
       "onlineURL": "https://extensions.turbowarp.org/gamejolt.js",
-      "iconURL": "/extensions/turbowarp/images/gamejolt.png",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/gamejolt.png",
       "tags": [
         "tw"
       ],
@@ -534,9 +534,9 @@
       "name": "iframe",
       "description": "Create and control iframes.",
       "extensionId": "iframe",
-      "extensionURL": "/extensions/turbowarp/iframe.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/iframe.js",
       "onlineURL": "https://extensions.turbowarp.org/iframe.js",
-      "iconURL": "/extensions/turbowarp/images/iframe.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/iframe.svg",
       "tags": [
         "tw"
       ],
@@ -548,9 +548,9 @@
       "name": "itch.io",
       "description": "itch.io API integration.",
       "extensionId": "itchio",
-      "extensionURL": "/extensions/turbowarp/itchio.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/itchio.js",
       "onlineURL": "https://extensions.turbowarp.org/itchio.js",
-      "iconURL": "/extensions/turbowarp/images/itchio.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/itchio.svg",
       "tags": [
         "tw"
       ],
@@ -562,9 +562,9 @@
       "name": "Local Storage",
       "description": "Store data in the browser's local storage.",
       "extensionId": "local-storage",
-      "extensionURL": "/extensions/turbowarp/local-storage.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/local-storage.js",
       "onlineURL": "https://extensions.turbowarp.org/local-storage.js",
-      "iconURL": "/extensions/turbowarp/images/local-storage.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/local-storage.svg",
       "tags": [
         "tw"
       ],
@@ -576,9 +576,9 @@
       "name": "Navigator",
       "description": "Get information about the browser and device.",
       "extensionId": "navigator",
-      "extensionURL": "/extensions/turbowarp/navigator.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/navigator.js",
       "onlineURL": "https://extensions.turbowarp.org/navigator.js",
-      "iconURL": "/extensions/turbowarp/images/navigator.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/navigator.svg",
       "tags": [
         "tw"
       ],
@@ -590,9 +590,9 @@
       "name": "Sound",
       "description": "Advanced sound control.",
       "extensionId": "sound",
-      "extensionURL": "/extensions/turbowarp/sound.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/sound.js",
       "onlineURL": "https://extensions.turbowarp.org/sound.js",
-      "iconURL": "/extensions/turbowarp/images/sound.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/sound.svg",
       "tags": [
         "tw"
       ],
@@ -604,9 +604,9 @@
       "name": "Steamworks",
       "description": "Steamworks API integration.",
       "extensionId": "steamworks",
-      "extensionURL": "/extensions/turbowarp/steamworks.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/steamworks.js",
       "onlineURL": "https://extensions.turbowarp.org/steamworks.js",
-      "iconURL": "/extensions/turbowarp/images/steamworks.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/steamworks.svg",
       "tags": [
         "tw"
       ],
@@ -618,9 +618,9 @@
       "name": "Utilities",
       "description": "Various utility blocks.",
       "extensionId": "utilities",
-      "extensionURL": "/extensions/turbowarp/utilities.js",
+      "extensionURL": "https://rw-extensions.pages.dev/turbowarp/utilities.js",
       "onlineURL": "https://extensions.turbowarp.org/utilities.js",
-      "iconURL": "/extensions/turbowarp/images/utilities.svg",
+      "iconURL": "https://rw-extensions.pages.dev/turbowarp/images/utilities.svg",
       "tags": [
         "tw"
       ],
@@ -632,9 +632,9 @@
       "name": "Array Buffers",
       "description": "Read, parse, and write raw data efficiently using Array Buffers",
       "extensionId": "arraybuffers",
-      "extensionURL": "/extensions/penguinmod/AndrewGaming587/agBuffer.js",
+      "extensionURL": "https://rw-extensions.pages.dev/penguinmod/AndrewGaming587/agBuffer.js",
       "onlineURL": "https://extensions.penguinmod.com/extensions/AndrewGaming587/agBuffer.js",
-      "iconURL": "/extensions/penguinmod/AndrewGaming587/agBuffer.svg",
+      "iconURL": "https://rw-extensions.pages.dev/penguinmod/AndrewGaming587/agBuffer.svg",
       "tags": [
         "penguinmod"
       ],
@@ -651,9 +651,9 @@
         "zh-cn": "一个模拟操作系统的扩展，包含CMD终端、寄存器管理、外部程序加载、自定义窗口和GUI组件等功能。"
       },
       "extensionId": "gmyosWindow",
-      "extensionURL": "/extensions/remixwarp/windows-of-os/windows-of-os.js",
+      "extensionURL": "https://rw-extensions.pages.dev/remixwarp/windows-of-os/windows-of-os.js",
       "onlineURL": "https://extensions.remixwarp.org/windows-of-os/windows-of-os.js",
-      "iconURL": "/extensions/remixwarp/windows-of-os/win-of-os.png",
+      "iconURL": "https://rw-extensions.pages.dev/remixwarp/windows-of-os/win-of-os.png",
       "tags": [
         "remixwarp"
       ],
@@ -669,7 +669,7 @@
       "extensionId": "cyberexplorer",
       "extensionURL": "https://editors.astras.top/extensions/cyberexplorertools.js",
       "onlineURL": "https://editors.astras.top/extensions/cyberexplorertools.js",
-      "iconURL": "/extensions/astraeditor/images/cyberexplorertools.png",
+      "iconURL": "https://rw-extensions.pages.dev/astraeditor/images/cyberexplorertools.png",
       "tags": [
         "astra"
       ],
@@ -685,7 +685,7 @@
       "extensionId": "xjy-blocked-words",
       "extensionURL": "https://editors.astras.top/extensions/prohibitedWordsExtension.js",
       "onlineURL": "https://editors.astras.top/extensions/prohibitedWordsExtension.js",
-      "iconURL": "/extensions/astraeditor/images/prohibitedWordsExtension.png",
+      "iconURL": "https://rw-extensions.pages.dev/astraeditor/images/prohibitedWordsExtension.png",
       "tags": [
         "astra"
       ],
@@ -701,7 +701,7 @@
       "extensionId": "hash-helper",
       "extensionURL": "https://editors.astras.top/extensions/hashhelper.js",
       "onlineURL": "https://editors.astras.top/extensions/hashhelper.js",
-      "iconURL": "/extensions/astraeditor/images/hashhelper.png",
+      "iconURL": "https://rw-extensions.pages.dev/astraeditor/images/hashhelper.png",
       "tags": [
         "astra"
       ],
@@ -717,7 +717,7 @@
       "extensionId": "winui3-dialog",
       "extensionURL": "https://editors.astras.top/extensions/WinUI3.js",
       "onlineURL": "https://editors.astras.top/extensions/WinUI3.js",
-      "iconURL": "/extensions/astraeditor/images/WinUI3.png",
+      "iconURL": "https://rw-extensions.pages.dev/astraeditor/images/WinUI3.png",
       "tags": [
         "astra"
       ],
@@ -733,7 +733,7 @@
       "extensionId": "text-processing",
       "extensionURL": "https://editors.astras.top/extensions/textprocessing.js",
       "onlineURL": "https://editors.astras.top/extensions/textprocessing.js",
-      "iconURL": "/extensions/astraeditor/images/textprocessing.png",
+      "iconURL": "https://rw-extensions.pages.dev/astraeditor/images/textprocessing.png",
       "tags": [
         "astra"
       ],
@@ -749,7 +749,7 @@
       "extensionId": "image-processor",
       "extensionURL": "https://editors.astras.top/extensions/ImageProcessor.js",
       "onlineURL": "https://editors.astras.top/extensions/ImageProcessor.js",
-      "iconURL": "/extensions/astraeditor/images/ImageProcessor.png",
+      "iconURL": "https://rw-extensions.pages.dev/astraeditor/images/ImageProcessor.png",
       "tags": [
         "astra"
       ],
@@ -765,7 +765,7 @@
       "extensionId": "text-check",
       "extensionURL": "https://editors.astras.top/extensions/textcheck.js",
       "onlineURL": "https://editors.astras.top/extensions/textcheck.js",
-      "iconURL": "/extensions/astraeditor/images/textcheck.png",
+      "iconURL": "https://rw-extensions.pages.dev/astraeditor/images/textcheck.png",
       "tags": [
         "astra"
       ],
@@ -781,7 +781,7 @@
       "extensionId": "windows-animation",
       "extensionURL": "https://editors.astras.top/extensions/EsayWindows10Windows11Animations.js",
       "onlineURL": "https://editors.astras.top/extensions/EsayWindows10Windows11Animations.js",
-      "iconURL": "/extensions/astraeditor/images/EsayWindows10Windows11Animations.png",
+      "iconURL": "https://rw-extensions.pages.dev/astraeditor/images/EsayWindows10Windows11Animations.png",
       "tags": [
         "astra"
       ],
@@ -797,7 +797,7 @@
       "extensionId": "sheep-toolkit",
       "extensionURL": "https://editors.astras.top/extensions/SheepToolkit.js",
       "onlineURL": "https://editors.astras.top/extensions/SheepToolkit.js",
-      "iconURL": "/extensions/astraeditor/images/SheepToolkit.png",
+      "iconURL": "https://rw-extensions.pages.dev/astraeditor/images/SheepToolkit.png",
       "tags": [
         "astra"
       ],
@@ -813,7 +813,7 @@
       "extensionId": "ningqi-repetitive-block",
       "extensionURL": "https://editors.astras.top/extensions/ningqiRepetitiveblock.js",
       "onlineURL": "https://editors.astras.top/extensions/ningqiRepetitiveblock.js",
-      "iconURL": "/extensions/astraeditor/images/ningqiRepetitiveblock.png",
+      "iconURL": "https://rw-extensions.pages.dev/astraeditor/images/ningqiRepetitiveblock.png",
       "tags": [
         "astra"
       ],
@@ -829,7 +829,7 @@
       "extensionId": "ningqi-variable-tool",
       "extensionURL": "https://editors.astras.top/extensions/ningqiVariableTool.js",
       "onlineURL": "https://editors.astras.top/extensions/ningqiVariableTool.js",
-      "iconURL": "/extensions/astraeditor/images/ningqiVariableTool.png",
+      "iconURL": "https://rw-extensions.pages.dev/astraeditor/images/ningqiVariableTool.png",
       "tags": [
         "astra"
       ],
@@ -845,7 +845,7 @@
       "extensionId": "ningqi-sensings",
       "extensionURL": "https://editors.astras.top/extensions/ningqiSensings.js",
       "onlineURL": "https://editors.astras.top/extensions/ningqiSensings.js",
-      "iconURL": "/extensions/astraeditor/images/ningqiSensings.png",
+      "iconURL": "https://rw-extensions.pages.dev/astraeditor/images/ningqiSensings.png",
       "tags": [
         "astra"
       ],
@@ -861,7 +861,7 @@
       "extensionId": "ningqi-collection",
       "extensionURL": "https://editors.astras.top/extensions/ningqiCollect.js",
       "onlineURL": "https://editors.astras.top/extensions/ningqiCollect.js",
-      "iconURL": "/extensions/astraeditor/images/ningqiCollect.png",
+      "iconURL": "https://rw-extensions.pages.dev/astraeditor/images/ningqiCollect.png",
       "tags": [
         "astra"
       ],
@@ -877,7 +877,7 @@
       "extensionId": "multi-source-extensions",
       "extensionURL": "https://editors.astras.top/extensions/ningqiMultiSourceExtensions.js",
       "onlineURL": "https://editors.astras.top/extensions/ningqiMultiSourceExtensions.js",
-      "iconURL": "/extensions/astraeditor/images/ningqiMultiSourceExtensions.png",
+      "iconURL": "https://rw-extensions.pages.dev/astraeditor/images/ningqiMultiSourceExtensions.png",
       "tags": [
         "astra"
       ],
@@ -893,7 +893,7 @@
       "extensionId": "windows-toast",
       "extensionURL": "https://editors.astras.top/extensions/windowstoast.js",
       "onlineURL": "https://editors.astras.top/extensions/windowstoast.js",
-      "iconURL": "/extensions/astraeditor/images/windowstoast.png",
+      "iconURL": "https://rw-extensions.pages.dev/astraeditor/images/windowstoast.png",
       "tags": [
         "astra"
       ],
@@ -907,9 +907,9 @@
       "name": "浏览器检查",
       "description": "检测项目运行的浏览器类型，支持多个浏览器识别",
       "extensionId": "browser-check",
-      "extensionURL": "/extensions/astraeditor/browserDetector.js",
+      "extensionURL": "https://rw-extensions.pages.dev/astraeditor/browserDetector.js",
       "onlineURL": "https://editors.astras.top/extensions/browserDetector.js",
-      "iconURL": "/extensions/astraeditor/images/browserDetector.png",
+      "iconURL": "https://rw-extensions.pages.dev/astraeditor/images/browserDetector.png",
       "tags": [
         "astra"
       ],
