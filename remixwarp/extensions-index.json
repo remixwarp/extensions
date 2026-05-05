@@ -66,6 +66,24 @@
       ],
       "incompatibleWithScratch": true,
       "featured": true
+    },
+    {
+      "name": "NT的颜色分析",
+      "description": "URL-Only High-Performance Color Analyzer",
+      "extensionId": "NTcolor",
+      "extensionURL": "https://rw-extensions.pages.dev/remixwarp/ntcolor/ntcolor.js",
+      "iconURL": "https://rw-extensions.pages.dev/remixwarp/ntcolor/ntcolor.png",
+      "tags": [
+        "remixwarp"
+      ],
+      "credits": [
+        {
+          "name": "NTUN",
+          "link": "https://space.bilibili.com/3546570106604381"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true
     }
   ]
 }
