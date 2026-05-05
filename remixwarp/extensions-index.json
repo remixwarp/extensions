@@ -1,8 +1,14 @@
 {
   "extensions": [
     {
-      "name": "寻路 (舞台坐标)",
-      "description": "多种寻路算法扩展，支持A*、BFS、Dijkstra、JPS等算法，可在舞台上显示调试窗口",
+      "name": "Pathfinding",
+      "nameTranslations": {
+        "zh-cn": "寻路 (舞台坐标)"
+      },
+      "description": "Multiple pathfinding algorithms including A*, BFS, Dijkstra, JPS, with debug window display on stage.",
+      "descriptionTranslations": {
+        "zh-cn": "多种寻路算法扩展，支持A*、BFS、Dijkstra、JPS等算法，可在舞台上显示调试窗口"
+      },
       "extensionId": "pathfinding",
       "extensionURL": "https://rw-extensions.pages.dev/remixwarp/寻路.js",
       "iconURL": "https://rw-extensions.pages.dev/remixwarp/寻路.png",
@@ -50,8 +56,14 @@
       ]
     },
     {
-      "name": "音频编码器",
-      "description": "将你的声音用文本储存",
+      "name": "Audio Encoder",
+      "nameTranslations": {
+        "zh-cn": "音频编码器"
+      },
+      "description": "Store your voice as text.",
+      "descriptionTranslations": {
+        "zh-cn": "将你的声音用文本储存"
+      },
       "extensionId": "audio-encoder",
       "extensionURL": "https://rw-extensions.pages.dev/remixwarp/audio-encoder/audio-encoder.js",
       "iconURL": "https://rw-extensions.pages.dev/remixwarp/audio-encoder/audio-encoder.svg",
@@ -68,8 +80,14 @@
       "featured": true
     },
     {
-      "name": "NT的颜色分析",
-      "description": "URL-Only High-Performance Color Analyzer",
+      "name": "NTcolor",
+      "nameTranslations": {
+        "zh-cn": "NT的颜色分析"
+      },
+      "description": "URL-Only High-Performance Color Analyzer.",
+      "descriptionTranslations": {
+        "zh-cn": "高性能颜色分析器，通过URL获取颜色信息"
+      },
       "extensionId": "NTcolor",
       "extensionURL": "https://rw-extensions.pages.dev/remixwarp/ntcolor/ntcolor.js",
       "iconURL": "https://rw-extensions.pages.dev/remixwarp/ntcolor/ntcolor.png",
