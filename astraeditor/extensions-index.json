@@ -306,6 +306,63 @@
       ],
       "incompatibleWithScratch": true,
       "featured": true
+    },
+    {
+      "name": "Cyberexplorer's File Reader",
+      "description": "Open files and folders, and return contents in specified formats.",
+      "extensionId": "cyberexplorerfilereader",
+      "extensionURL": "https://rw-extensions.pages.dev/astraeditor/cyberexplorerfilereader.js",
+      "onlineURL": "https://editors.astras.top/extensions/cyberexplorerfilereader.js",
+      "iconURL": "https://rw-extensions.pages.dev/astraeditor/images/cyberexplorerfilereader.png",
+      "tags": [
+        "astra"
+      ],
+      "credits": [
+        {
+          "name": "Cyberexplorer",
+          "link": "https://github.com/LanwyWriteXU"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true
+    },
+    {
+      "name": "Cyberexplorer's Terminal",
+      "description": "Better than the terminal addon!",
+      "extensionId": "cyberexplorerterminal",
+      "extensionURL": "https://rw-extensions.pages.dev/astraeditor/cyberexplorerterminal.js",
+      "onlineURL": "https://editors.astras.top/extensions/cyberexplorerterminal.js",
+      "iconURL": "https://rw-extensions.pages.dev/astraeditor/images/cyberexplorerterminal.png",
+      "tags": [
+        "astra"
+      ],
+      "credits": [
+        {
+          "name": "Cyberexplorer",
+          "link": "https://github.com/LanwyWriteXU"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true
+    },
+    {
+      "name": "Better Iframe",
+      "description": "Better Iframe framework, containing more features!",
+      "extensionId": "better-iframe",
+      "extensionURL": "https://rw-extensions.pages.dev/astraeditor/betterIframe.js",
+      "onlineURL": "https://editors.astras.top/extensions/betterIframe.js",
+      "iconURL": "https://rw-extensions.pages.dev/astraeditor/images/betterIframe.png",
+      "tags": [
+        "astra"
+      ],
+      "credits": [
+        {
+          "name": "fhy-action",
+          "link": "https://github.com/fhy-action"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true
     }
   ]
 }
