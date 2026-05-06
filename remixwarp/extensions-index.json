@@ -102,6 +102,40 @@
       ],
       "incompatibleWithScratch": true,
       "featured": true
+    },
+    {
+      "name": "Simple3D (Chinese)",
+      "nameTranslations": {
+        "zh-cn": "简易3D (汉化版)"
+      },
+      "description": "Chinese localized version of the Simple3D extension. Create 3D projects in Scratch with ease.",
+      "descriptionTranslations": {
+        "zh-cn": "Simple3D扩展的中文汉化版本，让你轻松在Scratch中创建3D项目。"
+      },
+      "extensionId": "xeltallivSimple3D",
+      "extensionURL": "https://rw-extensions.pages.dev/remixwarp/simple3d-cn/simple3d-cn.js",
+      "iconURL": "https://rw-extensions.pages.dev/remixwarp/simple3d-cn/simple3d-cn.png",
+      "tags": [
+        "remixwarp"
+      ],
+      "credits": [
+        {
+          "name": "Xeltalliv",
+          "link": "https://xeltalliv.github.io/simple3d-extension/"
+        },
+        {
+          "name": "SF-Twilight (Translator)",
+          "link": "https://space.bilibili.com/3546717859351038"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true,
+      "samples": [
+        {
+          "href": "https://extensions.turbowarp.org/samples/Simple3D%20template.sb3",
+          "text": "示例作品"
+        }
+      ]
     }
   ]
 }
