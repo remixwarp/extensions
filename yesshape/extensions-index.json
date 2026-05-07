@@ -1,0 +1,173 @@
+{
+  "extensions": [
+    {
+      "name": "Cloud Variables Plus",
+      "nameTranslations": {
+        "zh-cn": "云变量+"
+      },
+      "description": "More cloud variable operation blocks, allowing advanced features like creating, modifying, deleting cloud variables, connecting to different cloud servers, changing project IDs, etc.",
+      "descriptionTranslations": {
+        "zh-cn": "更多的云变量操作积木，允许创建、更改、删除云变量，连接不同的云变量服务器，更改作品ID等进阶功能。"
+      },
+      "extensionId": "cloudvariablesplus",
+      "extensionURL": "https://rw-extensions.pages.dev/yesshape/cloudvariablesplus.js",
+      "iconURL": "https://rw-extensions.pages.dev/yesshape/images/cloudvariablesplus.svg",
+      "tags": [
+        "yesshape"
+      ],
+      "credits": [
+        {
+          "name": "cloudvariablesplus",
+          "link": "https://scratch.mit.edu/users/yesshape/"
+        },
+        {
+          "name": "Yesshape",
+          "link": "https://scratch.mit.edu/users/yesshape/"
+        }
+      ],
+      "docsURI": "https://ddwarp-extensions.pages.dev/cloudvariablesplus",
+      "incompatibleWithScratch": true,
+      "featured": true
+    },
+    {
+      "name": "Mouse Plus",
+      "nameTranslations": {
+        "zh-cn": "鼠标+"
+      },
+      "description": "Control mouse position, customize cursor style, display virtual pointer, and support pointer lock feature. After pointer lock, mouse movement reports relative displacement.",
+      "descriptionTranslations": {
+        "zh-cn": "控制鼠标位置、自定义光标样式、显示虚拟指针，并支持指针锁定功能。指针锁定后鼠标移动将报告相对位移。"
+      },
+      "extensionId": "mouseplus",
+      "extensionURL": "https://rw-extensions.pages.dev/yesshape/mouseplus.js",
+      "iconURL": "https://rw-extensions.pages.dev/yesshape/images/mouseplus.svg",
+      "tags": [
+        "yesshape"
+      ],
+      "credits": [
+        {
+          "name": "Yesshape",
+          "link": "https://scratch.mit.edu/users/yesshape/"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true
+    },
+    {
+      "name": "Select Box",
+      "nameTranslations": {
+        "zh-cn": "选择框"
+      },
+      "description": "Add select box functionality to your projects.",
+      "descriptionTranslations": {
+        "zh-cn": "添加选择框功能"
+      },
+      "extensionId": "selectbox",
+      "extensionURL": "https://rw-extensions.pages.dev/yesshape/selectbox.js",
+      "iconURL": "https://rw-extensions.pages.dev/yesshape/images/selectbox.svg",
+      "tags": [
+        "yesshape"
+      ],
+      "credits": [
+        {
+          "name": "Yesshape",
+          "link": "https://scratch.mit.edu/users/yesshape/"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true
+    },
+    {
+      "name": "Input Box",
+      "nameTranslations": {
+        "zh-cn": "输入框"
+      },
+      "description": "Add input box functionality to your projects.",
+      "descriptionTranslations": {
+        "zh-cn": "添加输入框功能"
+      },
+      "extensionId": "inputbox",
+      "extensionURL": "https://rw-extensions.pages.dev/yesshape/inputbox.js",
+      "iconURL": "https://rw-extensions.pages.dev/yesshape/images/inputbox.svg",
+      "tags": [
+        "yesshape"
+      ],
+      "credits": [
+        {
+          "name": "Yesshape",
+          "link": "https://scratch.mit.edu/users/yesshape/"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true
+    },
+    {
+      "name": "Advanced Keys",
+      "nameTranslations": {
+        "zh-cn": "按键侦测"
+      },
+      "description": "More advanced key detection features including key combination detection.",
+      "descriptionTranslations": {
+        "zh-cn": "更多的按键侦测与组合键侦测等进阶功能。"
+      },
+      "extensionId": "advancedkeys",
+      "extensionURL": "https://rw-extensions.pages.dev/yesshape/advancedkeys.js",
+      "iconURL": "https://rw-extensions.pages.dev/yesshape/images/advancedkeys.svg",
+      "tags": [
+        "yesshape"
+      ],
+      "credits": [
+        {
+          "name": "Yesshape",
+          "link": "https://scratch.mit.edu/users/yesshape/"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true
+    },
+    {
+      "name": "Text to HTML",
+      "nameTranslations": {
+        "zh-cn": "文字转HTML"
+      },
+      "description": "Convert text to basic HTML formats.",
+      "descriptionTranslations": {
+        "zh-cn": "可以转换一些基本的HTML格式"
+      },
+      "extensionId": "texttohtml",
+      "extensionURL": "https://rw-extensions.pages.dev/yesshape/texttohtml.js",
+      "iconURL": "https://rw-extensions.pages.dev/yesshape/images/unknown.svg",
+      "tags": [
+        "yesshape"
+      ],
+      "credits": [
+        {
+          "name": "Comtbwp"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true
+    },
+    {
+      "name": "MMO",
+      "description": "Massively Multiplayer Online extension for creating online multiplayer games.",
+      "descriptionTranslations": {
+        "zh-cn": "大型多人在线游戏扩展"
+      },
+      "extensionId": "MMOGameOnlineV9",
+      "extensionURL": "https://rw-extensions.pages.dev/yesshape/MMOGameOnlineV9.js",
+      "iconURL": "https://rw-extensions.pages.dev/yesshape/images/MMOGameOnlineV9.svg",
+      "tags": [
+        "yesshape"
+      ],
+      "credits": [
+        {
+          "name": "Hugh",
+          "link": "https://space.bilibili.com/3546737813752345"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true
+    }
+  ]
+}
