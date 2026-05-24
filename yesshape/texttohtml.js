@@ -2,7 +2,6 @@
 // ID: texttohtml
 // Description: 可以转换一些基本的html格式
 // By: Comtbwp
-// Original: Comtbwp
 // License: MPL-2.0
 
 class TextToHtml {

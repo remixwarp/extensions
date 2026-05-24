@@ -1,0 +1,76 @@
+{
+  "extensions": [
+    {
+      "name": "Color Toolset",
+      "nameTranslations": {
+        "zh-cn": "颜色工具集"
+      },
+      "description": "Tons of color-related tools, meow. you can mix colors, invert them, find complementary colors, convert formats, and more — super useful tools, meow",
+      "descriptionTranslations": {
+        "zh-cn": "大量颜色相关工具，喵~ 可以混合颜色、反转、找互补色、格式转换等，超级有用的工具，喵~"
+      },
+      "extensionId": "colortools",
+      "extensionURL": "https://extensions.bilup.org/colortools.js",
+      "iconURL": "https://extensions.bilup.org/images/colortools.svg",
+      "tags": [
+        "bilup"
+      ],
+      "credits": [
+        {
+          "name": "MR醉诗",
+          "link": "https://space.bilibili.com/3546960701163977"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true
+    },
+    {
+      "name": "Easy Block+",
+      "nameTranslations": {
+        "zh-cn": "便利积木+"
+      },
+      "description": "Make Scratch users more convenient",
+      "descriptionTranslations": {
+        "zh-cn": "让 Scratch 用户更加便利"
+      },
+      "extensionId": "easyblock",
+      "extensionURL": "https://extensions.bilup.org/easyblock.js",
+      "iconURL": "https://extensions.bilup.org/images/easyblock.svg",
+      "tags": [
+        "bilup"
+      ],
+      "credits": [
+        {
+          "name": "DL_Grass",
+          "link": "https://github.com/DLGrass"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true
+    },
+    {
+      "name": "String Tools",
+      "nameTranslations": {
+        "zh-cn": "字符串工具"
+      },
+      "description": "Make handling strings more convenient",
+      "descriptionTranslations": {
+        "zh-cn": "让处理字符串更加便利"
+      },
+      "extensionId": "stringtools",
+      "extensionURL": "https://extensions.bilup.org/stringtools.js",
+      "iconURL": "https://extensions.bilup.org/images/stringtools.svg",
+      "tags": [
+        "bilup"
+      ],
+      "credits": [
+        {
+          "name": "DL_Grass",
+          "link": "https://github.com/DLGrass"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true
+    }
+  ]
+}

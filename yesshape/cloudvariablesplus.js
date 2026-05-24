@@ -2,7 +2,7 @@
 // ID: cloudvariablesplus
 // Description: 更多的云变量操作积木，允许创建、更改、删除云变量，连接不同的云变量服务器，更改作品 ID等进阶功能。
 // By: Yesshape <https://scratch.mit.edu/users/yesshape/>
-// Original: cloudvariablesplus
+// Video: https://www.bilibili.com/video/BV1H9RDBDEk2/?spm_id_from=333.1387.homepage.video_card.click
 // License: MPL-2.0
 
 (function (Scratch) {
