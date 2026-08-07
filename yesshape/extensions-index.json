@@ -196,6 +196,30 @@
       ],
       "incompatibleWithScratch": true,
       "featured": true
+    },
+    {
+      "name": "javascript",
+      "nameTranslations": {
+        "zh-cn": "javascript"
+      },
+      "description": "使用javascript代码",
+      "descriptionTranslations": {
+        "zh-cn": "使用javascript代码"
+      },
+      "extensionId": "javascript",
+      "extensionURL": "https://openwarp-extensions.pages.dev/javascript.js",
+      "iconURL": "https://openwarp-extensions.pages.dev/images/unknown.svg",
+      "tags": [
+        "yesshape"
+      ],
+      "credits": [
+        {
+          "name": "Yesshape",
+          "link": "https://scratch.mit.edu/users/yesshape/"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true
     }
   ]
 }

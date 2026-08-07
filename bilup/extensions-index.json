@@ -71,6 +71,148 @@
       ],
       "incompatibleWithScratch": true,
       "featured": true
+    },
+    {
+      "name": "ShangCloud",
+      "description": "ShangCloud SDK for Scratch.",
+      "extensionId": "shangcloud-bilup",
+      "extensionURL": "https://extensions.bilup.org/shangcloud.js",
+      "iconURL": "https://rw-extensions.pages.dev/bilup/images/shangcloud.png",
+      "tags": [
+        "bilup"
+      ],
+      "credits": [
+        {
+          "name": "Yearnstudio",
+          "link": "https://yearn.studio/"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true
+    },
+    {
+      "name": "Approaches!",
+      "nameTranslations": {
+        "zh-cn": "逼近函数"
+      },
+      "description": "Nonlinear approach functions.",
+      "descriptionTranslations": {
+        "zh-cn": "非线性逼近函数。"
+      },
+      "extensionId": "approaches",
+      "extensionURL": "https://extensions.bilup.org/approaches.js",
+      "iconURL": "https://rw-extensions.pages.dev/bilup/images/approaches.svg",
+      "tags": [
+        "bilup"
+      ],
+      "credits": [
+        {
+          "name": "蓝立方Blue3",
+          "link": "https://space.bilibili.com/25786611"
+        },
+        {
+          "name": "DL_Grass",
+          "link": "https://github.com/DLGrass"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true
+    },
+    {
+      "name": "AI in Blocks",
+      "nameTranslations": {
+        "zh-cn": "积木中的 AI"
+      },
+      "description": "Create AI instances and interact with them using streaming responses.",
+      "descriptionTranslations": {
+        "zh-cn": "创建 AI 实例并使用流式响应与之交互。"
+      },
+      "extensionId": "aiblocks",
+      "extensionURL": "https://extensions.bilup.org/aiblocks.js",
+      "iconURL": "https://rw-extensions.pages.dev/bilup/images/aiblocks.svg",
+      "tags": [
+        "bilup"
+      ],
+      "credits": [
+        {
+          "name": "RyaninCn11",
+          "link": "https://github.com/RyaninCn11"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true
+    },
+    {
+      "name": "AI",
+      "nameTranslations": {
+        "zh-cn": "AI"
+      },
+      "description": "Chat with AI in Scratch. Supports OpenAI and Anthropic APIs with streaming responses.",
+      "descriptionTranslations": {
+        "zh-cn": "在 Scratch 中与 AI 聊天。支持 OpenAI 和 Anthropic API 的流式响应。"
+      },
+      "extensionId": "ai",
+      "extensionURL": "https://extensions.bilup.org/ai.js",
+      "iconURL": "https://rw-extensions.pages.dev/bilup/images/ai.svg",
+      "tags": [
+        "bilup"
+      ],
+      "credits": [
+        {
+          "name": "Kimos Frontender",
+          "link": "https://scratch.mit.edu/users/Kimos-Frontender/"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true
+    },
+    {
+      "name": "LingDong Popup",
+      "nameTranslations": {
+        "zh-cn": "灵动弹窗"
+      },
+      "description": "A better, more concise and efficient popup extension.",
+      "descriptionTranslations": {
+        "zh-cn": "一个更好、更简洁高效的弹窗扩展。"
+      },
+      "extensionId": "lingdongpopup",
+      "extensionURL": "https://extensions.bilup.org/lingdongpopup.js",
+      "iconURL": "https://rw-extensions.pages.dev/bilup/images/lingdongpopup.svg",
+      "tags": [
+        "bilup"
+      ],
+      "credits": [
+        {
+          "name": "勇敢的菠萝🍍",
+          "link": "https://space.bilibili.com/521949499"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true
+    },
+    {
+      "name": "Xiaoboluo's ToolBox",
+      "nameTranslations": {
+        "zh-cn": "小菠萝的工具箱"
+      },
+      "description": "A comprehensive toolbox with list, text, math, and utility blocks for Scratch projects.",
+      "descriptionTranslations": {
+        "zh-cn": "一个综合工具箱，包含列表、文本、数学和实用工具积木，适用于 Scratch 项目。"
+      },
+      "extensionId": "xiaoboluotoolbox",
+      "extensionURL": "https://extensions.bilup.org/xiaoboluotoolbox.js",
+      "iconURL": "https://rw-extensions.pages.dev/bilup/images/xiaoboluotoolbox.svg",
+      "tags": [
+        "bilup"
+      ],
+      "credits": [
+        {
+          "name": "勇敢的菠萝🍍",
+          "link": "https://space.bilibili.com/521949499"
+        }
+      ],
+      "incompatibleWithScratch": true,
+      "featured": true
     }
   ]
 }
