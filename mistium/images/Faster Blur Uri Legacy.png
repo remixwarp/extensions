@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Extensions</title>
+    <meta content="Extensions" property="og:title" />
+    <meta content="A list of scratch extensions made by @mistium" property="og:description" />
+    <meta content="https://extensions.mistium.com" property="og:url" />
+    <meta content="#59d2b4" data-react-helmet="true" name="theme-color" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpeg" href="favicon.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <script src="site-data.js"></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-hero" role="banner">
+        <div class="inner">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <img class="brand-avatar" src="https://avatars.rotur.dev/mist" alt="Mistium avatar" />
+                    <div class="hero-text">
+                        <h1 class="site-title">Extensions</h1>
+                        <p class="tagline">Scratch and TurboWarp extensions by Mistium.</p>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch theme"
+                        aria-pressed="false" title="Switch theme">
+                        <span class="theme-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-stats" aria-label="Extension gallery stats">
+                <div class="stat">
+                    <span class="stat-value" id="totalCount">0</span>
+                    <span class="stat-label">Extensions</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value" id="featuredCount">0</span>
+                    <span class="stat-label">Featured</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">3</span>
+                    <span class="stat-label">Examples</span>
+                </div>
+            </div>
+            <p class="disclaimer" role="note">Built for fun in my spare time. Some may be experimental or unfinished.
+                Found a bug? Consider opening a pull request.</p>
+        </div>
+    </header>
+    <div class="controls-bar">
+        <div class="inner">
+            <div class="controls" aria-label="Extension browsing controls">
+                <div class="search-wrapper">
+                    <input id="searchInput" type="search" placeholder="Search extensions..."
+                        aria-label="Search extensions" autocomplete="off" />
+                    <button id="clearSearch" class="clear-btn" aria-label="Clear search" title="Clear search"
+                        hidden>&times;</button>
+                </div>
+                <select id="sortSelect" aria-label="Sort extensions">
+                    <option value="featured-first">Featured first</option>
+                    <option value="a-z">A → Z</option>
+                    <option value="z-a">Z → A</option>
+                    <option value="new-updated">New & Updated</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <main id="main" class="content" tabindex="-1">
+        <section aria-labelledby="featuredHeading" class="section-block">
+            <h2 id="featuredHeading" class="section-title">Featured Extensions</h2>
+            <div id="featuredCards" class="card-grid featured-grid" data-grid="featured" aria-live="polite"></div>
+        </section>
+        <section aria-labelledby="allHeading" class="section-block">
+            <h2 id="allHeading" class="section-title">All Extensions</h2>
+            <div id="fileCards" class="card-grid" data-grid="all" aria-live="polite"></div>
+            <div id="emptyState" class="empty-state" hidden>No extensions match your search.</div>
+        </section>
+        <section aria-labelledby="otherHeading" class="section-block">
+            <h2 id="otherHeading" class="section-title">Community Galleries</h2>
+            <div id="otherGalleries" class="gallery-grid" aria-live="polite"></div>
+        </section>
+        <footer class="site-footer">
+            <p><strong>Tip:</strong> Right‑click an extension link and copy its URL to add it to TurboWarp.</p>
+            <p class="tiny">&copy; <span id="year"></span> Mistium • MIT licensed site • Images & individual extensions
+                may have separate licenses.</p>
+        </footer>
+        <div class="footer-spacer" aria-hidden="true"></div>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            initTheme();
+            initKeyboardFocusStyles();
+
+            Promise.all([fetchVersions(), fetchExtensionMetadata()]).then(([versions, metadata]) => {
+                updateStats(metadata);
+                generateProfileCards(metadata, versions);
+                setupFilteringAndSorting();
+                generateOtherGalleries();
+            });
+            document.getElementById('year').textContent = new Date().getFullYear();
+        });
+
+        async function fetchVersions() {
+            let cached = {};
+            try {
+                cached = JSON.parse(localStorage.getItem('extensionVersions')) || {};
+            } catch (error) {
+                console.error('Error parsing cached versions:', error);
+            }
+
+            try {
+                if (window.location.protocol === 'file:' && window.extensionSiteData?.versions) {
+                    return { cached, current: window.extensionSiteData.versions };
+                }
+
+                const response = await fetch('./versions.json');
+                const current = await response.json();
+                return { cached, current };
+            } catch (error) {
+                console.error('Error fetching versions data:', error);
+                return { cached, current: window.extensionSiteData?.versions || cached };
+            }
+        }
+
+        async function fetchExtensionMetadata() {
+            try {
+                if (window.location.protocol === 'file:' && window.extensionSiteData?.metadata?.extensions) {
+                    return window.extensionSiteData.metadata.extensions;
+                }
+
+                const response = await fetch('./generated-metadata/extensions-v0.json');
+                const data = await response.json();
+
+                return data.extensions || [];
+            } catch (error) {
+                console.error('Error fetching extension metadata:', error);
+                return window.extensionSiteData?.metadata?.extensions || [];
+            }
+        }
+
+        function processMetadata(metadata) {
+            const featured = [];
+            const files = [];
+
+            metadata.forEach(ext => {
+                const item = {
+                    name: ext.filename,
+                    download_url: `https://raw.githubusercontent.com/Mistium/extensions.mistium/main/${ext.featured ? 'featured' : 'files'}/${ext.filename}`,
+                    metadata: ext
+                };
+
+                if (ext.featured) {
+                    featured.push(item);
+                } else {
+                    files.push(item);
+                }
+            });
+
+            return { featured, files };
+        }
+
+        function updateStats(metadata = []) {
+            document.getElementById('totalCount').textContent = metadata.length;
+            document.getElementById('featuredCount').textContent = metadata.filter(ext => ext.featured).length;
+        }
+
+        function createVersionTag(itemName, cachedVersions, versions) {
+            const versionTag = document.createElement("span");
+            versionTag.classList.add("version-tag");
+
+            if (!cachedVersions[itemName]) {
+                versionTag.textContent = "New";
+                versionTag.classList.add("new-tag");
+            } else if (versions[itemName] && versions[itemName] !== cachedVersions[itemName]) {
+                versionTag.textContent = "Updated";
+                versionTag.classList.add("updated-tag");
+            }
+
+            return versionTag;
+        }
+
+        function createExtensionMedia(item, itemName) {
+            const media = document.createElement("div");
+            media.classList.add("profile-media");
+
+            const profileImage = document.createElement("img");
+            const imagePath = item.metadata?.image || `images/${itemName}.png`;
+            profileImage.src = imagePath;
+            profileImage.alt = itemName;
+            profileImage.classList.add("profile-image");
+            profileImage.loading = 'lazy';
+            profileImage.addEventListener('load', () => {
+                media.classList.add('has-image');
+            });
+
+            profileImage.addEventListener('error', () => {
+                media.remove();
+            });
+
+            media.append(profileImage);
+            return media;
+        }
+
+        function createProfileCard(item, isFeatured, cachedVersions, versions) {
+            const itemName = item.name.replace(/\.js$/, '');
+            const download_url = item.download_url.replace("raw.githubusercontent.com/Mistium/extensions.mistium/main/", "extensions.mistium.com/");
+
+            const profileCard = document.createElement("article");
+            profileCard.classList.add("gallery-link", "profile-card");
+            profileCard.setAttribute('tabindex', '0');
+            profileCard.setAttribute('aria-label', itemName + ' extension');
+            profileCard.setAttribute('data-name', itemName.toLowerCase());
+            profileCard.setAttribute('data-featured', String(isFeatured));
+            profileCard.setAttribute('data-url', download_url);
+            profileCard.setAttribute('data-raw-url', item.download_url);
+
+            const cardContent = document.createElement("div");
+            cardContent.classList.add("card-content");
+            cardContent.appendChild(createExtensionMedia(item, itemName));
+
+            const platformHeading = document.createElement("h2");
+            platformHeading.textContent = itemName;
+            const versionTag = createVersionTag(item.name, cachedVersions, versions);
+            if (versionTag.textContent) platformHeading.appendChild(versionTag);
+            cardContent.appendChild(platformHeading);
+
+            const desc = document.createElement('p');
+            desc.className = 'ext-desc';
+            desc.textContent = item.metadata?.description || 'No description available yet.';
+            cardContent.appendChild(desc);
+
+            const actions = document.createElement('div');
+            actions.className = 'card-actions';
+
+            const copyBtn = document.createElement('button');
+            copyBtn.type = 'button';
+            copyBtn.className = 'icon-btn copy-btn';
+            copyBtn.setAttribute('aria-label', 'Copy extension URL');
+            copyBtn.textContent = 'Copy URL';
+            copyBtn.dataset.url = download_url;
+
+            const warpLink = document.createElement('a');
+            warpLink.className = 'icon-btn warp-btn';
+            warpLink.href = `https://warp.mistium.com/editor.html?extension=${encodeURIComponent(download_url)}`;
+            warpLink.target = '_blank';
+            warpLink.rel = 'noopener noreferrer';
+            warpLink.setAttribute('aria-label', 'Open in MistWarp');
+            warpLink.textContent = 'Open in Warp';
+
+            actions.append(copyBtn, warpLink);
+            profileCard.append(cardContent, actions);
+            return profileCard;
+        }
+
+        function generateProfileCards(metadata = [], versionState = { cached: {}, current: {} }) {
+            const featuredCardsContainer = document.getElementById("featuredCards");
+            const fileCardsContainer = document.getElementById("fileCards");
+            const data = processMetadata(metadata);
+            const cachedVersions = versionState.cached || {};
+            const versions = versionState.current || {};
+
+            if (!data || !data.featured || !Array.isArray(data.featured) || !data.files || !Array.isArray(data.files)) return;
+
+            data.featured.forEach(item => {
+                if (item.name.endsWith('.js')) featuredCardsContainer.appendChild(createProfileCard(item, true, cachedVersions, versions));
+            });
+
+            data.files.forEach(item => {
+                if (item.name.endsWith('.js')) fileCardsContainer.appendChild(createProfileCard(item, false, cachedVersions, versions));
+            });
+
+            localStorage.setItem('extensionVersions', JSON.stringify(versions));
+            return true;
+        }
+
+        function generateOtherGalleries() {
+            const galleries = [
+                { name: "PenguinMod", url: "https://extensions.penguinmod.com" },
+                { name: "Cally's Gallery", url: "https://cally-jt.github.io/ultimate-extension-gallery" },
+                { name: "Sharkpool", url: "https://sharkpools-extensions.vercel.app" },
+                { name: "Ruby Team Gallery", url: "https://ruby-devs.vercel.app/gallery" },
+                { name: "TurboWarp", url: "https://extensions.turbowarp.org" },
+                { name: "LDSJVG Webwave", url: "https://ldsjvg.webwave.dev/webpage_20" },
+                { name: "LBGS Extensions", url: "https://lbgs-extensions.vercel.app/" },
+                { name: "Dino Mod :P", url: "https://github.com/GabsTheCuriousKid/FirstExtension/tree/main/extensions" },
+                { name: "Pen Group", url: "https://pen-group.github.io/extensions" },
+                { name: "Lemon", url: "https://bludisanlemon.github.io/lemons-gallery" },
+                { name: "LeafiDev's Extensions", url: "https://leafidev.github.io/ExtensionPage/Projectspage.html?ref=mistium" },
+                { name: "CST's Extensions", url: "https://cst1229.eu.org/extensions" },
+                { name: "ElmoBear's Extensions", url: "https://kylekart.github.io/ScratchExtensions" },
+                { name: "Flufi's Gallery", url: "https://gallery.flufi.gay" },
+                { name: "Greedy Allay Extensions", url: "https://greedyallay.github.io/extensions" },
+            ];
+
+            const otherGalleriesContainer = document.getElementById("otherGalleries");
+
+            galleries.forEach(gallery => {
+                const galleryLink = document.createElement("a");
+                galleryLink.href = gallery.url + "?ref=mistium";
+                galleryLink.target = "_blank";
+                galleryLink.rel = "noopener noreferrer";
+                galleryLink.classList.add("gallery-link");
+                galleryLink.setAttribute('data-name', gallery.name.toLowerCase());
+
+                const galleryCard = document.createElement("div");
+                galleryCard.classList.add("gallery-card");
+                galleryCard.setAttribute('tabindex', '0');
+                galleryCard.setAttribute('role', 'article');
+                galleryCard.setAttribute('aria-label', gallery.name + ' gallery link');
+
+                const galleryHeading = document.createElement("h2");
+                galleryHeading.textContent = gallery.name;
+
+                galleryCard.appendChild(galleryHeading);
+                galleryLink.appendChild(galleryCard);
+                otherGalleriesContainer.appendChild(galleryLink);
+            });
+        }
+
+        function setupFilteringAndSorting() {
+            const searchInput = document.getElementById('searchInput');
+            const clearBtn = document.getElementById('clearSearch');
+            const sortSelect = document.getElementById('sortSelect');
+            const emptyState = document.getElementById('emptyState');
+            const featuredContainer = document.getElementById('featuredCards');
+            const allContainer = document.getElementById('fileCards');
+
+            function apply() {
+                const term = searchInput.value.trim().toLowerCase();
+                const sort = sortSelect.value;
+                const featuredCards = Array.from(featuredContainer.querySelectorAll('.gallery-link'));
+                const allCards = Array.from(allContainer.querySelectorAll('.gallery-link'));
+                const combined = [...featuredCards, ...allCards];
+
+                let visibleCount = 0;
+                combined.forEach(link => {
+                    const name = link.getAttribute('data-name');
+                    const match = !term || name.includes(term);
+                    link.toggleAttribute('hidden', !match);
+                    if (match) visibleCount++;
+                });
+
+                emptyState.hidden = visibleCount !== 0;
+
+                function nameOf(el) { return el.getAttribute('data-name'); }
+                const nonFeatured = allCards.filter(el => !el.hasAttribute('hidden'));
+                if (sort === 'a-z') nonFeatured.sort((a, b) => nameOf(a).localeCompare(nameOf(b)));
+                else if (sort === 'z-a') nonFeatured.sort((a, b) => nameOf(b).localeCompare(nameOf(a)));
+                else if (sort === 'new-updated') {
+                    nonFeatured.sort((a, b) => {
+                        const av = a.querySelector('.version-tag');
+                        const bv = b.querySelector('.version-tag');
+                        const as = av ? (av.classList.contains('new-tag') ? 2 : 1) : 0;
+                        const bs = bv ? (bv.classList.contains('new-tag') ? 2 : 1) : 0;
+                        if (bs - as !== 0) return bs - as;
+                        return nameOf(a).localeCompare(nameOf(b));
+                    });
+                }
+                if (sort !== 'featured-first') {
+                    const frag = document.createDocumentFragment();
+                    nonFeatured.forEach(el => frag.appendChild(el));
+                    allContainer.appendChild(frag);
+                }
+                clearBtn.hidden = term.length === 0;
+            }
+
+            searchInput.addEventListener('input', apply);
+            sortSelect.addEventListener('change', apply);
+            clearBtn.addEventListener('click', () => { searchInput.value = ''; apply(); searchInput.focus(); });
+            apply();
+        }
+
+        function initTheme() {
+            const toggle = document.getElementById('themeToggle');
+            const saved = localStorage.getItem('theme') || 'dark';
+
+            function renderTheme(mode) {
+                document.documentElement.dataset.theme = mode;
+                toggle.dataset.mode = mode;
+                toggle.setAttribute('aria-pressed', String(mode === 'light'));
+                toggle.setAttribute('aria-label', mode === 'light' ? 'Switch to dark theme' : 'Switch to light theme');
+            }
+
+            renderTheme(saved);
+            toggle.addEventListener('click', () => {
+                const mode = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
+                renderTheme(mode);
+                localStorage.setItem('theme', mode);
+            });
+        }
+
+        function initKeyboardFocusStyles() {
+            function handleFirstTab(e) {
+                if (e.key === 'Tab') {
+                    document.documentElement.classList.add('user-tabbing');
+                    window.removeEventListener('keydown', handleFirstTab);
+                }
+            }
+            window.addEventListener('keydown', handleFirstTab);
+        }
+
+        document.addEventListener('click', e => {
+            const btn = e.target.closest('.copy-btn');
+            if (!btn) return;
+            e.preventDefault();
+            e.stopPropagation();
+            const url = btn.dataset.url;
+            if (!url) return;
+            navigator.clipboard.writeText(url).then(() => {
+                const original = btn.textContent;
+                btn.classList.add('copied');
+                btn.textContent = 'Copied';
+                setTimeout(() => { btn.classList.remove('copied'); btn.textContent = original; }, 1500);
+            }).catch(() => {
+                const original = btn.textContent;
+                btn.textContent = 'Copy failed';
+                setTimeout(() => { btn.textContent = original; }, 1500);
+            });
+        });
+    </script>
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"a3ba043676c74dbb9588a7bc762ae5cb","r":1}' crossorigin="anonymous"></script>
+</body>
+
+</html>
