@@ -3,7 +3,6 @@
 // Description: 可以转换一些基本的html格式
 // By: Comtbwp
 // License: MPL-2.0
-
 class TextToHtml {
   getInfo() {
     return {
@@ -175,32 +174,26 @@ class TextToHtml {
       }
     };
   }
-
   textToHtml(args) {
     const text = args.TEXT;
     return text.replace(/\n/g, '<br>');
   }
-
   styledText(args) {
     const { TEXT, COLOR, SIZE } = args;
     return `<span style="color: ${COLOR}; font-size: ${SIZE}px">${TEXT}</span>`;
   }
-
   createLink(args) {
     const { TEXT, URL } = args;
     return `<a href="${URL}" target="_blank">${TEXT}</a>`;
   }
-
   createImage(args) {
     const { URL, WIDTH } = args;
     return `<img src="${URL}" width="${WIDTH}" style="max-width: 100%">`;
   }
-
   createButton(args) {
     const { TEXT, COLOR } = args;
     return `<button style="background-color: ${COLOR}; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer;">${TEXT}</button>`;
   }
-
   createList(args) {
     const { TYPE, ITEMS } = args;
     const listType = TYPE === '无序列表' ? 'ul' : 'ol';
@@ -210,34 +203,27 @@ class TextToHtml {
     
     return `<${listType}>${items}</${listType}>`;
   }
-
   createHeader(args) {
     const { TYPE, TEXT } = args;
     return `<${TYPE}>${TEXT}</${TYPE}>`;
   }
-
   createQuote(args) {
     const { TEXT } = args;
     return `<blockquote style="border-left: 4px solid #ccc; margin: 10px 0; padding-left: 15px; color: #666;">${TEXT}</blockquote>`;
   }
-
   createCode(args) {
     const { CODE } = args;
     return `<code style="background: #f4f4f4; padding: 2px 6px; border-radius: 3px; font-family: monospace;">${CODE}</code>`;
   }
-
   createDivider() {
     return '<hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">';
   }
-
   lineBreak() {
     return '<br>';
   }
-
   multipleLineBreaks(args) {
     const count = Math.max(1, Math.min(10, args.COUNT));
     return '<br>'.repeat(count);
   }
 }
-
 Scratch.extensions.register(new TextToHtml());

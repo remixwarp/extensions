@@ -17,22 +17,6 @@
       "featured": true
     },
     {
-      "name": "Shovel Debugger",
-      "description": "Shovel's improved and feature rich debugger!",
-      "extensionId": "shoveldebugger",
-      "extensionURL": "https://rw-extensions.pages.dev/penguinmod/TheShovel/shoveldebugger.js",
-      "onlineURL": "https://extensions.penguinmod.com/extensions/TheShovel/shoveldebugger.js",
-      "iconURL": "https://rw-extensions.pages.dev/penguinmod/TheShovel/thumbnail-shoveldebugger.avif",
-      "tags": [
-        "penguinmod"
-      ],
-      "credits": [
-        "TheShovel"
-      ],
-      "incompatibleWithScratch": true,
-      "featured": true
-    },
-    {
       "name": "Server Storage",
       "description": "Similar to the server storage blocks in the 'Storage' extension, but with a better server uptime and non-global keys.\nDid you know the server is open source?",
       "extensionId": "serverstorage",
