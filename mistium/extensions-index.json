@@ -358,7 +358,7 @@
       "extensionId": "camera",
       "extensionURL": "https://rw-extensions.pages.dev/mistium/Camera.js",
       "onlineURL": "https://extensions.mistium.com/files/Camera.js",
-      "iconURL": "https://extensions.mistium.com/images/Camera.png",
+      "iconURL": "https://rw-extensions.pages.dev/mistium/images/Camera.png",
       "tags": [
         "mistium"
       ],
@@ -374,7 +374,7 @@
       "extensionId": "cloudlink4-improved",
       "extensionURL": "https://rw-extensions.pages.dev/mistium/Cloudlink4_Improved.js",
       "onlineURL": "https://extensions.mistium.com/files/Cloudlink4_Improved.js",
-      "iconURL": "https://extensions.mistium.com/images/Cloudlink4_Improved.png",
+      "iconURL": "https://rw-extensions.pages.dev/mistium/images/Cloudlink4_Improved.png",
       "tags": [
         "mistium"
       ],
@@ -390,7 +390,7 @@
       "extensionId": "compiled-comments",
       "extensionURL": "https://rw-extensions.pages.dev/mistium/Compiled Comments.js",
       "onlineURL": "https://extensions.mistium.com/files/Compiled Comments.js",
-      "iconURL": "https://extensions.mistium.com/images/Compiled Comments.png",
+      "iconURL": "https://rw-extensions.pages.dev/mistium/images/Compiled Comments.png",
       "tags": [
         "mistium"
       ],
@@ -406,7 +406,7 @@
       "extensionId": "exportspritedatauri",
       "extensionURL": "https://rw-extensions.pages.dev/mistium/ExportSpriteDataURI.js",
       "onlineURL": "https://extensions.mistium.com/files/ExportSpriteDataURI.js",
-      "iconURL": "https://extensions.mistium.com/images/ExportSpriteDataURI.png",
+      "iconURL": "https://rw-extensions.pages.dev/mistium/images/ExportSpriteDataURI.png",
       "tags": [
         "mistium"
       ],
@@ -422,7 +422,7 @@
       "extensionId": "fast-list-set",
       "extensionURL": "https://rw-extensions.pages.dev/mistium/Fast_List_Set.js",
       "onlineURL": "https://extensions.mistium.com/files/Fast_List_Set.js",
-      "iconURL": "https://extensions.mistium.com/images/Fast_List_Set.png",
+      "iconURL": "https://rw-extensions.pages.dev/mistium/images/Fast_List_Set.png",
       "tags": [
         "mistium"
       ],
@@ -438,7 +438,7 @@
       "extensionId": "faster-blur-uri",
       "extensionURL": "https://rw-extensions.pages.dev/mistium/Faster Blur Uri.js",
       "onlineURL": "https://extensions.mistium.com/files/Faster Blur Uri.js",
-      "iconURL": "https://extensions.mistium.com/images/Faster Blur Uri.png",
+      "iconURL": "https://rw-extensions.pages.dev/mistium/images/Faster Blur Uri.png",
       "tags": [
         "mistium"
       ],
@@ -454,7 +454,7 @@
       "extensionId": "faster-blur-uri-legacy",
       "extensionURL": "https://rw-extensions.pages.dev/mistium/Faster Blur Uri Legacy.js",
       "onlineURL": "https://extensions.mistium.com/files/Faster Blur Uri Legacy.js",
-      "iconURL": "https://extensions.mistium.com/images/Faster Blur Uri Legacy.png",
+      "iconURL": "https://rw-extensions.pages.dev/mistium/images/Faster Blur Uri Legacy.png",
       "tags": [
         "mistium"
       ],
@@ -470,7 +470,7 @@
       "extensionId": "faster-blur-uri-legacy-2",
       "extensionURL": "https://rw-extensions.pages.dev/mistium/Faster Blur Uri Legacy 2.js",
       "onlineURL": "https://extensions.mistium.com/files/Faster Blur Uri Legacy 2.js",
-      "iconURL": "https://extensions.mistium.com/images/Faster Blur Uri Legacy 2.png",
+      "iconURL": "https://rw-extensions.pages.dev/mistium/images/Faster Blur Uri Legacy 2.png",
       "tags": [
         "mistium"
       ],
@@ -486,7 +486,7 @@
       "extensionId": "fastobject",
       "extensionURL": "https://rw-extensions.pages.dev/mistium/FastObject.js",
       "onlineURL": "https://extensions.mistium.com/files/FastObject.js",
-      "iconURL": "https://extensions.mistium.com/images/FastObject.png",
+      "iconURL": "https://rw-extensions.pages.dev/mistium/images/FastObject.png",
       "tags": [
         "mistium"
       ],
@@ -502,7 +502,7 @@
       "extensionId": "inputmanager",
       "extensionURL": "https://rw-extensions.pages.dev/mistium/InputManager.js",
       "onlineURL": "https://extensions.mistium.com/files/InputManager.js",
-      "iconURL": "https://extensions.mistium.com/images/InputManager.png",
+      "iconURL": "https://rw-extensions.pages.dev/mistium/images/InputManager.png",
       "tags": [
         "mistium"
       ],
@@ -518,7 +518,7 @@
       "extensionId": "keyhistory-legacy",
       "extensionURL": "https://rw-extensions.pages.dev/mistium/KeyHistory Legacy.js",
       "onlineURL": "https://extensions.mistium.com/files/KeyHistory Legacy.js",
-      "iconURL": "https://extensions.mistium.com/images/KeyHistory Legacy.png",
+      "iconURL": "https://rw-extensions.pages.dev/mistium/images/KeyHistory Legacy.png",
       "tags": [
         "mistium"
       ],
@@ -534,7 +534,7 @@
       "extensionId": "lowlevelskins",
       "extensionURL": "https://rw-extensions.pages.dev/mistium/LowLevelSkins.js",
       "onlineURL": "https://extensions.mistium.com/files/LowLevelSkins.js",
-      "iconURL": "https://extensions.mistium.com/images/LowLevelSkins.png",
+      "iconURL": "https://rw-extensions.pages.dev/mistium/images/LowLevelSkins.png",
       "tags": [
         "mistium"
       ],
@@ -550,7 +550,7 @@
       "extensionId": "originosl",
       "extensionURL": "https://rw-extensions.pages.dev/mistium/originOSL.js",
       "onlineURL": "https://extensions.mistium.com/files/originOSL.js",
-      "iconURL": "https://extensions.mistium.com/images/originOSL.png",
+      "iconURL": "https://rw-extensions.pages.dev/mistium/images/originOSL.png",
       "tags": [
         "mistium"
       ],
@@ -566,7 +566,7 @@
       "extensionId": "random",
       "extensionURL": "https://rw-extensions.pages.dev/mistium/Random.js",
       "onlineURL": "https://extensions.mistium.com/files/Random.js",
-      "iconURL": "https://extensions.mistium.com/images/Random.png",
+      "iconURL": "https://rw-extensions.pages.dev/mistium/images/Random.png",
       "tags": [
         "mistium"
       ],
@@ -582,7 +582,7 @@
       "extensionId": "roturvoice-advanced",
       "extensionURL": "https://rw-extensions.pages.dev/mistium/roturVoice Advanced.js",
       "onlineURL": "https://extensions.mistium.com/files/roturVoice Advanced.js",
-      "iconURL": "https://extensions.mistium.com/images/roturVoice Advanced.png",
+      "iconURL": "https://rw-extensions.pages.dev/mistium/images/roturVoice Advanced.png",
       "tags": [
         "mistium"
       ],
@@ -598,7 +598,7 @@
       "extensionId": "soundutils",
       "extensionURL": "https://rw-extensions.pages.dev/mistium/SoundUtils.js",
       "onlineURL": "https://extensions.mistium.com/files/SoundUtils.js",
-      "iconURL": "https://extensions.mistium.com/images/SoundUtils.png",
+      "iconURL": "https://rw-extensions.pages.dev/mistium/images/SoundUtils.png",
       "tags": [
         "mistium"
       ],
@@ -614,7 +614,7 @@
       "extensionId": "tabutils",
       "extensionURL": "https://rw-extensions.pages.dev/mistium/TabUtils.js",
       "onlineURL": "https://extensions.mistium.com/files/TabUtils.js",
-      "iconURL": "https://extensions.mistium.com/images/TabUtils.png",
+      "iconURL": "https://rw-extensions.pages.dev/mistium/images/TabUtils.png",
       "tags": [
         "mistium"
       ],
@@ -630,7 +630,7 @@
       "extensionId": "uri-utilities",
       "extensionURL": "https://rw-extensions.pages.dev/mistium/URI Utilities.js",
       "onlineURL": "https://extensions.mistium.com/files/URI Utilities.js",
-      "iconURL": "https://extensions.mistium.com/images/URI Utilities.png",
+      "iconURL": "https://rw-extensions.pages.dev/mistium/images/URI Utilities.png",
       "tags": [
         "mistium"
       ],
@@ -646,7 +646,7 @@
       "extensionId": "usb",
       "extensionURL": "https://rw-extensions.pages.dev/mistium/USB.js",
       "onlineURL": "https://extensions.mistium.com/files/USB.js",
-      "iconURL": "https://extensions.mistium.com/images/USB.png",
+      "iconURL": "https://rw-extensions.pages.dev/mistium/images/USB.png",
       "tags": [
         "mistium"
       ],
