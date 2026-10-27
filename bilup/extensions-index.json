@@ -1,218 +1,302 @@
 {
-  "extensions": [
-    {
-      "name": "Color Toolset",
-      "nameTranslations": {
-        "zh-cn": "颜色工具集"
-      },
-      "description": "Tons of color-related tools, meow. you can mix colors, invert them, find complementary colors, convert formats, and more — super useful tools, meow",
-      "descriptionTranslations": {
-        "zh-cn": "大量颜色相关工具，喵~ 可以混合颜色、反转、找互补色、格式转换等，超级有用的工具，喵~"
-      },
-      "extensionId": "colortools",
-      "extensionURL": "https://extensions.bilup.org/colortools.js",
-      "iconURL": "https://extensions.bilup.org/images/colortools.svg",
-      "tags": [
-        "bilup"
-      ],
-      "credits": [
+    "extensions": [
         {
-          "name": "MR醉诗",
-          "link": "https://space.bilibili.com/3546960701163977"
-        }
-      ],
-      "incompatibleWithScratch": true,
-      "featured": true
-    },
-    {
-      "name": "Easy Block+",
-      "nameTranslations": {
-        "zh-cn": "便利积木+"
-      },
-      "description": "Make Scratch users more convenient",
-      "descriptionTranslations": {
-        "zh-cn": "让 Scratch 用户更加便利"
-      },
-      "extensionId": "easyblock",
-      "extensionURL": "https://extensions.bilup.org/easyblock.js",
-      "iconURL": "https://extensions.bilup.org/images/easyblock.svg",
-      "tags": [
-        "bilup"
-      ],
-      "credits": [
-        {
-          "name": "DL_Grass",
-          "link": "https://github.com/DLGrass"
-        }
-      ],
-      "incompatibleWithScratch": true,
-      "featured": true
-    },
-    {
-      "name": "String Tools",
-      "nameTranslations": {
-        "zh-cn": "字符串工具"
-      },
-      "description": "Make handling strings more convenient",
-      "descriptionTranslations": {
-        "zh-cn": "让处理字符串更加便利"
-      },
-      "extensionId": "stringtools",
-      "extensionURL": "https://extensions.bilup.org/stringtools.js",
-      "iconURL": "https://extensions.bilup.org/images/stringtools.svg",
-      "tags": [
-        "bilup"
-      ],
-      "credits": [
-        {
-          "name": "DL_Grass",
-          "link": "https://github.com/DLGrass"
-        }
-      ],
-      "incompatibleWithScratch": true,
-      "featured": true
-    },
-    {
-      "name": "ShangCloud",
-      "description": "ShangCloud SDK for Scratch.",
-      "extensionId": "shangcloud-bilup",
-      "extensionURL": "https://extensions.bilup.org/shangcloud.js",
-      "iconURL": "https://rw-extensions.pages.dev/bilup/images/shangcloud.png",
-      "tags": [
-        "bilup"
-      ],
-      "credits": [
-        {
-          "name": "Yearnstudio",
-          "link": "https://yearn.studio/"
-        }
-      ],
-      "incompatibleWithScratch": true,
-      "featured": true
-    },
-    {
-      "name": "Approaches!",
-      "nameTranslations": {
-        "zh-cn": "逼近函数"
-      },
-      "description": "Nonlinear approach functions.",
-      "descriptionTranslations": {
-        "zh-cn": "非线性逼近函数。"
-      },
-      "extensionId": "approaches",
-      "extensionURL": "https://extensions.bilup.org/approaches.js",
-      "iconURL": "https://rw-extensions.pages.dev/bilup/images/approaches.svg",
-      "tags": [
-        "bilup"
-      ],
-      "credits": [
-        {
-          "name": "蓝立方Blue3",
-          "link": "https://space.bilibili.com/25786611"
+            "name": "Color Toolset",
+            "nameTranslations": {
+                "zh-cn": "颜色工具集",
+                "zh-tw": "顏色工具集"
+            },
+            "description": "Tons of color-related tools, meow. you can mix colors, invert them, find complementary colors, convert formats, and more — super useful tools, meow",
+            "descriptionTranslations": {
+                "zh-cn": "超多关于颜色的工具喵，有混合颜色，反色，互补色，转换格式等超好用的工具喵",
+                "zh-tw": "超多關於顏色的工具喵，有混合顏色、反色、互補色、轉換格式等超好用的工具喵"
+            },
+            "extensionId": "colortools",
+            "extensionURL": "https://extensions.bilup.org/colortools.js",
+            "iconURL": "https://extensions.bilup.org/images/colortools.svg",
+            "tags": [
+                "bilup"
+            ],
+            "credits": [
+                {
+                    "name": "MR醉诗",
+                    "link": "https://space.bilibili.com/3546960701163977"
+                }
+            ],
+            "incompatibleWithScratch": true,
+            "featured": true
         },
         {
-          "name": "DL_Grass",
-          "link": "https://github.com/DLGrass"
-        }
-      ],
-      "incompatibleWithScratch": true,
-      "featured": true
-    },
-    {
-      "name": "AI in Blocks",
-      "nameTranslations": {
-        "zh-cn": "积木中的 AI"
-      },
-      "description": "Create AI instances and interact with them using streaming responses.",
-      "descriptionTranslations": {
-        "zh-cn": "创建 AI 实例并使用流式响应与之交互。"
-      },
-      "extensionId": "aiblocks",
-      "extensionURL": "https://extensions.bilup.org/aiblocks.js",
-      "iconURL": "https://rw-extensions.pages.dev/bilup/images/aiblocks.svg",
-      "tags": [
-        "bilup"
-      ],
-      "credits": [
+            "name": "Easy Block+",
+            "nameTranslations": {
+                "zh-cn": "便利积木+",
+                "zh-tw": "便利積木+"
+            },
+            "description": "Make Scratch users more convenient",
+            "descriptionTranslations": {
+                "zh-cn": "让创作更简单，更方便",
+                "zh-tw": "讓創作更簡單，更方便"
+            },
+            "extensionId": "easyblock",
+            "extensionURL": "https://extensions.bilup.org/easyblock.js",
+            "iconURL": "https://extensions.bilup.org/images/easyblock.svg",
+            "tags": [
+                "bilup"
+            ],
+            "credits": [
+                {
+                    "name": "DL_Grass",
+                    "link": "https://github.com/DLGrass"
+                }
+            ],
+            "incompatibleWithScratch": true,
+            "featured": true
+        },
         {
-          "name": "RyaninCn11",
-          "link": "https://github.com/RyaninCn11"
-        }
-      ],
-      "incompatibleWithScratch": true,
-      "featured": true
-    },
-    {
-      "name": "AI",
-      "nameTranslations": {
-        "zh-cn": "AI"
-      },
-      "description": "Chat with AI in Scratch. Supports OpenAI and Anthropic APIs with streaming responses.",
-      "descriptionTranslations": {
-        "zh-cn": "在 Scratch 中与 AI 聊天。支持 OpenAI 和 Anthropic API 的流式响应。"
-      },
-      "extensionId": "ai",
-      "extensionURL": "https://extensions.bilup.org/ai.js",
-      "iconURL": "https://rw-extensions.pages.dev/bilup/images/ai.svg",
-      "tags": [
-        "bilup"
-      ],
-      "credits": [
+            "name": "String Tools",
+            "nameTranslations": {
+                "zh-cn": "字符串处理",
+                "zh-tw": "字串處理"
+            },
+            "description": "Make handling strings more convenient",
+            "descriptionTranslations": {
+                "zh-cn": "更加便利地处理字符串",
+                "zh-tw": "更加便利地處理字串"
+            },
+            "extensionId": "stringtools",
+            "extensionURL": "https://extensions.bilup.org/stringtools.js",
+            "iconURL": "https://extensions.bilup.org/images/stringtools.svg",
+            "tags": [
+                "bilup"
+            ],
+            "credits": [
+                {
+                    "name": "DL_Grass",
+                    "link": "https://github.com/DLGrass"
+                }
+            ],
+            "incompatibleWithScratch": true,
+            "featured": true
+        },
         {
-          "name": "Kimos Frontender",
-          "link": "https://scratch.mit.edu/users/Kimos-Frontender/"
-        }
-      ],
-      "incompatibleWithScratch": true,
-      "featured": true
-    },
-    {
-      "name": "LingDong Popup",
-      "nameTranslations": {
-        "zh-cn": "灵动弹窗"
-      },
-      "description": "A better, more concise and efficient popup extension.",
-      "descriptionTranslations": {
-        "zh-cn": "一个更好、更简洁高效的弹窗扩展。"
-      },
-      "extensionId": "lingdongpopup",
-      "extensionURL": "https://extensions.bilup.org/lingdongpopup.js",
-      "iconURL": "https://rw-extensions.pages.dev/bilup/images/lingdongpopup.svg",
-      "tags": [
-        "bilup"
-      ],
-      "credits": [
+            "name": "ShangCloud",
+            "description": "ShangCloud SDK for Scratch.",
+            "extensionId": "shangcloud-bilup",
+            "extensionURL": "https://extensions.bilup.org/shangcloud.js",
+            "iconURL": "https://rw-extensions.pages.dev/bilup/images/shangcloud.png",
+            "tags": [
+                "bilup"
+            ],
+            "credits": [
+                {
+                    "name": "Yearnstudio",
+                    "link": "https://yearn.studio/"
+                }
+            ],
+            "incompatibleWithScratch": true,
+            "featured": true
+        },
         {
-          "name": "勇敢的菠萝🍍",
-          "link": "https://space.bilibili.com/521949499"
-        }
-      ],
-      "incompatibleWithScratch": true,
-      "featured": true
-    },
-    {
-      "name": "Xiaoboluo's ToolBox",
-      "nameTranslations": {
-        "zh-cn": "小菠萝的工具箱"
-      },
-      "description": "A comprehensive toolbox with list, text, math, and utility blocks for Scratch projects.",
-      "descriptionTranslations": {
-        "zh-cn": "一个综合工具箱，包含列表、文本、数学和实用工具积木，适用于 Scratch 项目。"
-      },
-      "extensionId": "xiaoboluotoolbox",
-      "extensionURL": "https://extensions.bilup.org/xiaoboluotoolbox.js",
-      "iconURL": "https://rw-extensions.pages.dev/bilup/images/xiaoboluotoolbox.svg",
-      "tags": [
-        "bilup"
-      ],
-      "credits": [
+            "name": "Approaches!",
+            "nameTranslations": {
+                "zh-cn": "接近!",
+                "zh-tw": "接近!"
+            },
+            "description": "Nonlinear approach functions.",
+            "descriptionTranslations": {
+                "zh-cn": "非线性接近函数",
+                "zh-tw": "非線性接近函數"
+            },
+            "extensionId": "approaches",
+            "extensionURL": "https://extensions.bilup.org/approaches.js",
+            "iconURL": "https://rw-extensions.pages.dev/bilup/images/approaches.svg",
+            "tags": [
+                "bilup"
+            ],
+            "credits": [
+                {
+                    "name": "蓝立方Blue3",
+                    "link": "https://space.bilibili.com/25786611"
+                },
+                {
+                    "name": "DL_Grass",
+                    "link": "https://github.com/DLGrass"
+                }
+            ],
+            "incompatibleWithScratch": true,
+            "featured": true
+        },
         {
-          "name": "勇敢的菠萝🍍",
-          "link": "https://space.bilibili.com/521949499"
+            "name": "AI in Blocks",
+            "nameTranslations": {
+                "zh-cn": "AI 积木",
+                "zh-tw": "AI 積木"
+            },
+            "description": "Create AI instances and interact with them using streaming responses.",
+            "descriptionTranslations": {
+                "zh-cn": "创建AI实例并使用流式响应与它们交互",
+                "zh-tw": "建立AI實例並使用串流回應與它們互動"
+            },
+            "extensionId": "aiblocks",
+            "extensionURL": "https://extensions.bilup.org/aiblocks.js",
+            "iconURL": "https://rw-extensions.pages.dev/bilup/images/aiblocks.svg",
+            "tags": [
+                "bilup"
+            ],
+            "credits": [
+                {
+                    "name": "RyaninCn11",
+                    "link": "https://github.com/RyaninCn11"
+                }
+            ],
+            "incompatibleWithScratch": true,
+            "featured": true
+        },
+        {
+            "name": "AI",
+            "nameTranslations": {
+                "zh-cn": "AI"
+            },
+            "description": "Chat with AI in Scratch. Supports OpenAI and Anthropic APIs with streaming responses.",
+            "descriptionTranslations": {
+                "zh-cn": "在 Scratch 中与 AI 聊天。支持 OpenAI 和 Anthropic API 的流式响应。"
+            },
+            "extensionId": "ai",
+            "extensionURL": "https://extensions.bilup.org/ai.js",
+            "iconURL": "https://rw-extensions.pages.dev/bilup/images/ai.svg",
+            "tags": [
+                "bilup"
+            ],
+            "credits": [
+                {
+                    "name": "Kimos Frontender",
+                    "link": "https://scratch.mit.edu/users/Kimos-Frontender/"
+                }
+            ],
+            "incompatibleWithScratch": true,
+            "featured": true
+        },
+        {
+            "name": "LingDong Popup",
+            "nameTranslations": {
+                "zh-cn": "灵动弹窗",
+                "zh-tw": "靈動彈窗"
+            },
+            "description": "A better, more concise and efficient popup extension.",
+            "descriptionTranslations": {
+                "zh-cn": "一个更好的、更简洁高效的弹窗扩展",
+                "zh-tw": "一個更好的、更簡潔高效的彈窗擴充功能"
+            },
+            "extensionId": "lingdongpopup",
+            "extensionURL": "https://extensions.bilup.org/lingdongpopup.js",
+            "iconURL": "https://rw-extensions.pages.dev/bilup/images/lingdongpopup.svg",
+            "tags": [
+                "bilup"
+            ],
+            "credits": [
+                {
+                    "name": "勇敢的菠萝🍍",
+                    "link": "https://space.bilibili.com/521949499"
+                }
+            ],
+            "incompatibleWithScratch": true,
+            "featured": true
+        },
+        {
+            "name": "Xiaoboluo's ToolBox",
+            "nameTranslations": {
+                "zh-cn": "小菠萝🍍的工具箱",
+                "zh-tw": "小菠蘿🍍的工具箱"
+            },
+            "description": "A comprehensive toolbox with list, text, math, and utility blocks for Scratch projects.",
+            "descriptionTranslations": {
+                "zh-cn": "将列表、文本、数学、等实用工具整合在了一起",
+                "zh-tw": "將列表、文字、數學等實用工具整合在一起"
+            },
+            "extensionId": "xiaoboluotoolbox",
+            "extensionURL": "https://extensions.bilup.org/xiaoboluotoolbox.js",
+            "iconURL": "https://rw-extensions.pages.dev/bilup/images/xiaoboluotoolbox.svg",
+            "tags": [
+                "bilup"
+            ],
+            "credits": [
+                {
+                    "name": "勇敢的菠萝🍍",
+                    "link": "https://space.bilibili.com/521949499"
+                }
+            ],
+            "incompatibleWithScratch": true,
+            "featured": true
+        },
+        {
+            "name": "Leishen Pro",
+            "nameTranslations": {
+                "zh-cn": "雷神 Pro",
+                "zh-tw": "雷神 Pro"
+            },
+            "description": "Fullscreen post-processing effects: blur, glitch, bloom, presets and custom shaders.",
+            "descriptionTranslations": {
+                "zh-cn": "全屏后期特效：模糊、故障、泛光、预设风格与自定义着色器",
+                "zh-tw": "全螢幕後期特效：模糊、故障、泛光、預設風格與自訂著色器"
+            },
+            "extensionId": "leishen",
+            "extensionURL": "https://extensions.bilup.org/leishen.js",
+            "iconURL": "https://extensions.bilup.org/images/leishen.svg",
+            "tags": [
+                "bilup"
+            ],
+            "credits": [
+                {
+                    "name": "勇敢的菠萝🍍",
+                    "link": "https://space.bilibili.com/521949499"
+                }
+            ],
+            "incompatibleWithScratch": true,
+            "featured": true
+        },
+        {
+            "name": "Inputer",
+            "nameTranslations": {
+                "zh-cn": "输入框",
+                "zh-tw": "輸入框"
+            },
+            "description": "Input box extension produced by 0.2 Studio.",
+            "descriptionTranslations": {
+                "zh-cn": "0.2工作室出品的输入框扩展",
+                "zh-tw": "0.2工作室出品的輸入框擴充功能"
+            },
+            "extensionId": "kmsinputer",
+            "extensionURL": "https://extensions.bilup.org/kmsinputer.js",
+            "iconURL": "https://extensions.bilup.org/images/kmsinputer.png",
+            "tags": [
+                "bilup"
+            ],
+            "credits": [
+                {
+                    "name": "Kimos Frontender",
+                    "link": "https://scratch.mit.edu/users/Kimos-Frontender/"
+                }
+            ],
+            "incompatibleWithScratch": true,
+            "featured": true
+        },
+        {
+            "name": "PineSounds",
+            "description": "An advanced audio engine, providing complex sound control, synthesis, and offline remixing.",
+            "extensionId": "PineSounds",
+            "extensionURL": "https://extensions.bilup.org/PineSounds.js",
+            "iconURL": "https://extensions.bilup.org/images/PineSounds.svg",
+            "tags": [
+                "bilup"
+            ],
+            "credits": [
+                {
+                    "name": "SharkPool (original), enhanced as \"PineSounds\"",
+                    "link": null
+                }
+            ],
+            "incompatibleWithScratch": true,
+            "featured": true
         }
-      ],
-      "incompatibleWithScratch": true,
-      "featured": true
-    }
-  ]
+    ]
 }
